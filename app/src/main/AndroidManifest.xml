@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="halisa096.sqliteapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconku"
+        android:label="SQLitehalisa096"
+        android:roundIcon="@drawable/iconku"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="halisa096.sqliteapp.ContentActivity"></activity>
+        <activity android:name="halisa096.sqliteapp.RegisterActivity" />
+        <activity android:name="halisa096.sqliteapp.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
